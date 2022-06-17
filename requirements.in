@@ -1,0 +1,9 @@
+#service
+fastapi
+uvicorn[standard]
+
+#database
+
+#utils
+dynaconf
+uuid
