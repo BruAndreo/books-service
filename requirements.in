@@ -3,6 +3,7 @@ fastapi
 uvicorn[standard]
 
 #database
+SQLAlchemy
 
 #utils
 dynaconf

@@ -3,6 +3,7 @@ import uvicorn
 
 from books.app import app
 from books.config import settings
+from books.data import db
 
 
 if __name__ == "__main__":
