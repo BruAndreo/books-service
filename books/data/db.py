@@ -10,3 +10,7 @@ password = settings.db["pass"]
 db_connection_str = f"postgresql://{user}:{password}@{host}:{port}/{base}"
 
 engine = create_engine(db_connection_str, echo=True)
+
+result = engine.execute("select now()")
+
+print(result.fetchone())
