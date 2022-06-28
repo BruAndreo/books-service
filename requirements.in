@@ -3,7 +3,8 @@ fastapi
 uvicorn[standard]
 
 #database
-SQLAlchemy
+sqlalchemy
+psycopg2-binary
 
 #utils
 dynaconf
